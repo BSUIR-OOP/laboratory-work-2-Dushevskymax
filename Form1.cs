@@ -16,12 +16,21 @@ namespace Lab2
         {
             InitializeComponent();
 
+<<<<<<< HEAD
             figures.Add(new Ellipse("Ellipse"));
             figures.Add(new Rectangle("Rectangle"));
             figures.Add(new Rhombus("Rhombus"));
             figures.Add(new Segment("Segment"));
             figures.Add(new Square("Square"));
             figures.Add(new Triangle("Triangle"));
+=======
+            figures.Add(new Ellipse());
+            figures.Add(new Rectangle());
+            figures.Add(new Rhombus());
+            figures.Add(new Segment());
+            figures.Add(new Square());
+            figures.Add(new Triangle());
+>>>>>>> 9c865b99a3c2c30ad7ffe2aebbe1add21c92b9b1
         }
 
         List<Figure> figures = new List<Figure>();
@@ -49,6 +58,7 @@ namespace Lab2
 
         private void Form1_Load(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             int top = 10;
             int left = 10;
             for (int i = 0; i < figures.Count; i++)
@@ -62,6 +72,8 @@ namespace Lab2
                 top += button.Height + 4;
             }
 
+=======
+>>>>>>> 9c865b99a3c2c30ad7ffe2aebbe1add21c92b9b1
             foreach (var item in this.Controls)
             {
                 if (item is Button)
@@ -77,4 +89,8 @@ namespace Lab2
             button_index = Convert.ToInt16(((Button)sender).Tag);
         }
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 9c865b99a3c2c30ad7ffe2aebbe1add21c92b9b1
